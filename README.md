@@ -18,7 +18,7 @@
 ## Screenshot
 
 - Here is a screenshot of the working webpage.
-![homework](./homework-screenshot.png)
+![homework](./assets/homework-screenshot.png)
 
 ## Working Code
 

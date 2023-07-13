@@ -3,7 +3,7 @@
 
 const currentDay = ($('#currentDay'))
 const currentHour = dayjs().hour()
-
+console.log(currentHour)
 $(function () {
 
   function saveText(){
@@ -19,6 +19,7 @@ $(function () {
     const currentHour = dayjs().hour()
     $('.time-block').each(function () {
       const scheduleHour = parseInt($(this).attr('id').split('hour')[1])
+      console.log(scheduleHour)
       if (scheduleHour < currentHour) {
         $(this).addClass("past");
         $(this).removeClass("future");
